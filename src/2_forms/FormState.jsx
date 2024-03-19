@@ -1,8 +1,8 @@
 import { useFormState } from "react-dom";
 
 const QUESTIONS = [
-  { id: 1, text: "1 + 1", answer: "2" },
-  { id: 2, text: "7 * 7", answer: "49" },
+  { id: 1, text: "1 + 1 = ?", answer: "2" },
+  { id: 2, text: "7 * 7 = ?", answer: "49" },
 ];
 
 const formActionHandler = async (prevState, formData) => {
