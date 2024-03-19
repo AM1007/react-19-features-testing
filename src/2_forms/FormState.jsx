@@ -30,7 +30,7 @@ export const FormQuiz = () => {
   return (
     <div>
       <form action={formAction}>
-        <label>Quiz</label>
+        <label>QUIZ</label>
 
         <label htmlFor="q1">{QUESTIONS[0].text}</label>
         <input type="text" name="question1" id="q1" />
